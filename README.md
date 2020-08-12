@@ -1,24 +1,38 @@
-# README
+# Poetry and Emotion
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Instructions
 
-Things you may want to cover:
+Using a poetry API and a tone analysis API provided to you by your instructors, retrieve a sampling of poems for an author and display the relevant information below.
 
-* Ruby version
+Build your work using TDD and commit your code at intervals no larger than 15 minutes.
 
-* System dependencies
+```
+As a user
+When I visit "/"
+And I fill in "Emily" in the textfield(Note: Use the existing search form)
+And I click "Get Poems"
+Then I should be on page "/search"
+Then I should see a list of the first 10 poems.
 
-* Configuration
+For each poem I should see
+- Title
+- Author
+- The poem(as a single string)
 
-* Database creation
+I should also see:
+- The tone or tones for each poem
+```
 
-* Database initialization
+### Versions
 
-* How to run the test suite
+Rails 5.2.4.3
 
-* Services (job queues, cache servers, search engines, etc.)
+Ruby 2.5.3
 
-* Deployment instructions
+### Setup
 
-* ...
+- Clone this repo
+- `bundle install`
+- `bundle exec figaro install`
+- `rails db:{create,migrate}`
+- `rails s`

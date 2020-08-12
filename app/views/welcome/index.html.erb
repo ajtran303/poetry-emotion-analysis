@@ -1,0 +1,16 @@
+<nav class="navbar" role="navigation">
+  <div class="navbar-header">
+    <h2 class ="navbar-brand">Welcome to Poetry and Emotion</h2>
+  </div>
+  <div class="poetry-container">
+    <%= image_tag("book_and_pen.jpeg", class: "quill") %>
+  </div>
+  <div class="search-containter">
+    <ul class="search">
+      <%= form_tag(search_path, method: "get") do %>
+        <%= text_field_tag(:author, nil, placeholder: "Enter Author Name")%>
+        <%= submit_tag('Get Poems', class: "button") %>
+      <% end %>
+    </ul>
+  </div>
+</nav>
