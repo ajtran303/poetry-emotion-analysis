@@ -1,0 +1,20 @@
+<nav class="navbar" role="navigation">
+  <div class="navbar-header">
+    <h2 class ="navbar-brand">Search Results</h2>
+  </div>
+  <div class="poetry-container">
+    <%= image_tag("book_and_pen.jpeg", class: "quill") %>
+  </div>
+
+  <main class="poems">
+    <% @poems.each do |poem| %>
+    <article class="poem">
+      <p class="poem-title"><%= poem.title %><p>
+      <p class="poem-author"><%= poem.author %><p>
+      <p class="poem-text"><%= poem.text %><p>
+      <p class="poem-tone"><%= poem.tone %><p>
+    </article>
+    <% end %>
+  </main>
+
+</nav>
