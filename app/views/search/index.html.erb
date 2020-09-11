@@ -9,10 +9,17 @@
   <main class="poems">
     <% @poems.each do |poem| %>
     <article class="poem">
-      <p class="poem-title"><%= poem.title %><p>
-      <p class="poem-author"><%= poem.author %><p>
-      <p class="poem-text"><%= poem.text %><p>
-      <p class="poem-tone"><%= poem.tone %><p>
+      <header>
+        <h3 class="poem-title"><%= poem.title %><span class="poem-tone"><%= " - (#{poem.tone})" %></span></h3>
+        <h4 class="poem-author"><%= poem.author %></h4>
+      </header>
+      <main class="poem-text">
+        <p>
+          <% poem.text.each do |text| %>
+            <%= text %><br/>
+          <% end %>
+        </p>
+      </main>
     </article>
     <% end %>
   </main>
