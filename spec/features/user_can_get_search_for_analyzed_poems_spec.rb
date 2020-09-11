@@ -15,19 +15,11 @@ RSpec.describe "___ Page Spec" do
         expect(current_path).to eq "/search"
 
         within ".poems" do
-          expect(page).to have_selector("poem", count: 10)
+          expect(page).to have_selector(".poem", count: 10)
         end
 
         first_poem = find(".poem", match: :first)
         within first_poem do
-          expect(page).to have_selector(".poem-title")
-          expect(page).to have_selector(".poem-author")
-          expect(page).to have_selector(".poem-text")
-          expect(page).to have_selector(".poem-tone")
-        end
-
-        last_poem = find(".poem", match: :last)
-        within last_poem do
           expect(page).to have_selector(".poem-title")
           expect(page).to have_selector(".poem-author")
           expect(page).to have_selector(".poem-text")
