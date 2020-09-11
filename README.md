@@ -24,8 +24,10 @@ Browse through the results!
 
 ### Screenshots
 
-<img width="603" alt="Screen Shot 2020-09-11 at 11 01 23 AM" src="https://user-images.githubusercontent.com/31839316/92953156-7c4f7600-f41e-11ea-9e95-4053f7c7b7fd.png">
-<img width="603" alt="Screen Shot 2020-09-11 at 11 01 32 AM" src="https://user-images.githubusercontent.com/31839316/92953169-81acc080-f41e-11ea-8d0d-b8da49fe5eb4.png">
+
+<img width="603" alt="Poetry and Emotion Homepage With Search Bar" src="https://user-images.githubusercontent.com/31839316/92953169-81acc080-f41e-11ea-8d0d-b8da49fe5eb4.png">
+
+<img width="603" alt="Poetry and Emotion Search Results" src="https://user-images.githubusercontent.com/31839316/92953156-7c4f7600-f41e-11ea-9e95-4053f7c7b7fd.png">
 
 ### I built this in two hours with the following instructions
 
