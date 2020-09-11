@@ -18,9 +18,9 @@ Ruby 2.5.3
 
 ### Usage
 
-In your browser, navigate to `localhost:3000`
-Search for poems by author name
-Browse through the results!
+- In your browser, navigate to `localhost:3000`
+- Search for poems by author name
+- Browse through the results!
 
 ### Screenshots
 
